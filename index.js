@@ -1,9 +1,12 @@
-import express from 'express';
+import express from "express";
 const port = 3003;
 const app = express();
 
-app.get('/', (req, res) => {
-  res.send('Successful response.');
+app.get("/", (req, res) => {
+  res.send("Successful response.");
 });
 
-app.listen(port, () => console.log(`Example app is listening on port ${port}.`));
+app.listen(port, () =>
+  // eslint-disable-next-line no-console
+  console.log(`Example app is listening on port ${port}.`)
+);
