@@ -10,6 +10,14 @@ Very basic nodejs express project starter kit. Meant as a starter for a backend/
 - nodejs 16.10 or higher
 - run `corepack enable`
 
+## Usage
+
+- run `yarn start` to start the server
+
+## Production
+
+With newer versions of nodejs most newer javascript features are now supported. So transpiling and bundling is not really needed, even for production, as long as we're only making backends and not targeting browsers. Which means you can just clone this on the server and run it the same way you would in development. Inspired by [this article](https://blog.logrocket.com/you-dont-need-babel-with-node/).
+
 ## Setup project
 This project has been set up using the following commands, if cloning this you don't have to redo these, they're just here for reference.
 
