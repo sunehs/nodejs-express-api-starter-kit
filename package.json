@@ -1,5 +1,5 @@
 {
-  "name": "elmaonline-site",
+  "name": "nodejs-express-api-starter-kit",
   "type": "module",
   "private": true,
   "packageManager": "yarn@3.2.3",
